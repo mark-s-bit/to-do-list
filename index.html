@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>to=do-list</title>
+    <title>to-do-list</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <div class="cointainer">
+    <div class="container">
+      <div c>
         <h1>my to do list</h1>
-        <form class="input-task">
+        <form class="input- task">
           <input type="text" id="task-input" placeholder="add a new task" />
           <button type="submit">ADD</button>
           <button>DELETE</button>
         </form>
+        <div class="todo-container">
+          <ul id="task-listed"></ul>
+        </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
